@@ -1,30 +1,51 @@
-# 💻 Deepak Kumar — Portfolio Website# 💻 Deepak Kumar — Portfolio Website
+# Deepak Kumar - Portfolio Website# 💻 Deepak Kumar — Portfolio Website# 💻 Deepak Kumar — Portfolio Website
 
-<div align="center"><div align="center">
+## About Me<div align="center"><div align="center">
+
+Hi! I'm **Deepak Kumar**, a MERN Stack Developer and Full Stack Engineer pursuing B.Tech in Computer Science from ABES Engineering College.
 
 <img src="public/photo.jpeg" alt="Deepak Kumar" width="200" style="border-radius: 50%; margin: 20px 0;" /> <img src="public/photo.jpeg" alt="Deepak Kumar" width="200" style="border-radius: 50%; margin: 20px 0;" />
 
+I build scalable web applications using MongoDB, Express.js, React.js, and Node.js.
+
 </div></div>
 
-Welcome to my personal portfolio website built with **React.js**, **Vite**, **Framer Motion**, and **modern UI design** principles.Welcome to my personal portfolio website built with **React.js**, **Vite**, **Framer Motion**, and **modern UI design** principles.
+## Website
 
-It showcases my work, projects, skills, and journey as a **MERN Stack Developer** passionate about **Full Stack Development** and **Problem Solving**.It showcases my work, projects, skills, and journey as a **MERN Stack Developer** passionate about **Full Stack Development** and **Problem Solving**.
+This is my personal portfolio website showcasing my projects, skills, and achievements.Welcome to my personal portfolio website built with **React.js**, **Vite**, **Framer Motion**, and **modern UI design** principles.Welcome to my personal portfolio website built with **React.js**, **Vite**, **Framer Motion**, and **modern UI design** principles.
 
-🌐 **Website:** [Coming Soon on Vercel]🌐 **Website:** [Coming Soon on Vercel]
+**Tech Stack:** React.js, Vite, Framer MotionIt showcases my work, projects, skills, and journey as a **MERN Stack Developer** passionate about **Full Stack Development** and **Problem Solving**.It showcases my work, projects, skills, and journey as a **MERN Stack Developer** passionate about **Full Stack Development** and **Problem Solving**.
 
-## 👨‍💻 About Me## 👨‍💻 About Me
+## Setup🌐 **Website:** [Coming Soon on Vercel]🌐 **Website:** [Coming Soon on Vercel]
 
-Hi! I'm **Deepak Kumar**, a passionate **MERN Stack Developer** and **Full Stack Engineer** currently pursuing my B.Tech in Computer Science from **ABES Engineering College** (CGPA: 8.23). Hi! I'm **Deepak Kumar**, a passionate **MERN Stack Developer** and **Full Stack Engineer** currently pursuing my B.Tech in Computer Science from **ABES Engineering College** (CGPA: 8.23).
+`````bash
 
-I specialize in building scalable web applications using the **MERN stack** (MongoDB, Express.js, React.js, Node.js) and have successfully delivered **2+ websites** to clients. I'm constantly exploring new technologies and love solving complex problems.I specialize in building scalable web applications using the **MERN stack** (MongoDB, Express.js, React.js, Node.js) and have successfully delivered **2+ websites** to clients. I'm constantly exploring new technologies and love solving complex problems.
+git clone https://github.com/deepak-kumar20/DeepakPortfolio.git## 👨‍💻 About Me## 👨‍💻 About Me
 
-🏆 **Achievements:**🏆 **Achievements:**
+cd DeepakPortfolio
 
-- 🥈 Hackathon Runner-Up at Maharaja Agrasen College
+npm installHi! I'm **Deepak Kumar**, a passionate **MERN Stack Developer** and **Full Stack Engineer** currently pursuing my B.Tech in Computer Science from **ABES Engineering College** (CGPA: 8.23). Hi! I'm **Deepak Kumar**, a passionate **MERN Stack Developer** and **Full Stack Engineer** currently pursuing my B.Tech in Computer Science from **ABES Engineering College** (CGPA: 8.23).
 
-- 🏅 Smart India Hackathon Top 50 Teams (out of 450+)- 🥈 Hackathon Runner-Up at Maharaja Agrasen College
+npm run dev
 
-- 💻 200+ LeetCode problems solved- 🏅 Smart India Hackathon Top 50 Teams (out of 450+)
+```I specialize in building scalable web applications using the **MERN stack** (MongoDB, Express.js, React.js, Node.js) and have successfully delivered **2+ websites** to clients. I'm constantly exploring new technologies and love solving complex problems.I specialize in building scalable web applications using the **MERN stack** (MongoDB, Express.js, React.js, Node.js) and have successfully delivered **2+ websites** to clients. I'm constantly exploring new technologies and love solving complex problems.
+
+
+
+Open [http://localhost:5173](http://localhost:5173)🏆 **Achievements:**🏆 **Achievements:**
+
+
+
+## Contact- 🥈 Hackathon Runner-Up at Maharaja Agrasen College
+
+- **Email:** deepakkr0208@gmail.com
+
+- **GitHub:** [deepak-kumar20](https://github.com/deepak-kumar20)- 🏅 Smart India Hackathon Top 50 Teams (out of 450+)- 🥈 Hackathon Runner-Up at Maharaja Agrasen College
+
+- **LinkedIn:** [deepakkumar20](https://www.linkedin.com/in/deepakkumar20/)
+
+- **WhatsApp:** +91-6397148409- 💻 200+ LeetCode problems solved- 🏅 Smart India Hackathon Top 50 Teams (out of 450+)
+
 
 - 🎓 HackerRank JavaScript & Java certified- 💻 200+ LeetCode problems solved
 
@@ -168,7 +189,7 @@ npm install
 
 npm run devgit clone https://github.com/deepak-kumar20/DeepakPortfolio.git
 
-````
+`````
 
 # 2️⃣ Navigate to project directory
 
