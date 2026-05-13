@@ -66,6 +66,20 @@ const CERTS = [
     img: "/gallery/Hackathon4.jpeg",
     link: "/gallery/Hackathon4.jpeg",
   },
+  {
+    title: "IIT Ropar Certificate",
+    org: "IIT Ropar",
+    date: "2025",
+    img: "/certs/iitropar.jpeg",
+    link: "/certs/iitropar.jpeg",
+  },
+  {
+    title: "Google Developer Group - DU",
+    org: "GDG DU",
+    date: "2025",
+    img: "/certs/googledevelopersgroup-du.jpeg",
+    link: "/certs/googledevelopersgroup-du.jpeg",
+  },
 ];
 
 export default function Certificates() {

@@ -81,11 +81,11 @@ export default function Resume() {
             <strong style={{ color: "#00b4ff" }}>Professional Summary:</strong>
             <p style={{ marginTop: 6, color: "#ccc" }}>
               Computer Science student with hands-on experience in MERN Stack
-              development. Skilled in building scalable web applications using
-              React, Node.js, Express, and MongoDB. Passionate about creating
-              efficient backend systems and solving real-world problems through
-              code. Currently interning as a MERN Stack Developer at Ghaziabad
-              E-Cell Organization.
+              and full stack development. Skilled in building scalable web
+              applications using React, Node.js, Express, and MongoDB.
+              Passionate about creating efficient backend systems and solving
+              real-world problems through code. Full Stack Engineer Intern at
+              ACT Business Solutions and Technical Coordinator at ABES E-Cell.
             </p>
           </motion.div>
         </motion.div>
@@ -126,7 +126,7 @@ export default function Resume() {
               </span>{" "}
               <br />
               <span style={{ color: "#bbb", fontSize: 14 }}>
-                CGPA: 8.23/10 (till 4th sem)
+                CGPA: 8.27/10 (till now)
               </span>{" "}
               <br />
               <span
@@ -189,24 +189,42 @@ export default function Resume() {
           </h4>
           <div style={{ lineHeight: 1.8 }}>
             <strong style={{ color: "#ccc" }}>
-              MERN Stack Developer Intern
+              Full Stack Engineer Intern, ACT Business Solutions
             </strong>
-            <br />
-            <span style={{ color: "#aaa", fontSize: 14 }}>
-              Ghaziabad E-Cell Organization | Jul 2025 – Present
-            </span>
             <ul style={{ marginTop: 8, paddingLeft: 20, color: "#bbb" }}>
               <li>
-                Reduced website load time by 30% and increased session duration
-                by 18% through API optimization and asset caching.
+                Developed scalable features using the MERN stack and optimized
+                API performance.
               </li>
               <li>
-                Enhanced user engagement by 20% with UI/UX refinements and
-                feature improvements.
+                Built and integrated RESTful APIs with React.js for seamless
+                frontend-backend data flow.
               </li>
               <li>
-                Partnered with design and content teams to align the platform
-                with organizational branding and goals.
+                Refactored components for high reusability, reducing code
+                redundancy and load times.
+              </li>
+              <li>
+                Enhanced security by implementing JWT authentication and custom
+                middleware.
+              </li>
+              <li>
+                Participated in Agile sprints and code reviews to ensure
+                production-grade quality.
+              </li>
+            </ul>
+
+            <strong style={{ color: "#ccc" }}>
+              Technical Coordinator, ABES E-Cell
+            </strong>
+            <ul style={{ marginTop: 8, paddingLeft: 20, color: "#bbb" }}>
+              <li>
+                Developed and maintained website sections for events and
+                announcements.
+              </li>
+              <li>
+                Built registration systems and improved user interaction
+                experience.
               </li>
             </ul>
           </div>
@@ -281,6 +299,47 @@ export default function Resume() {
                 </li>
               </ul>
             </li>
+            <li style={{ marginBottom: 12 }}>
+              <strong>4️⃣ Distributed Job Queue System</strong> | Node.js,
+              PostgreSQL, Docker
+              <ul style={{ paddingLeft: 20, color: "#bbb", fontSize: 14 }}>
+                <li>
+                  Scalable multi-queue job distribution system with worker health
+                  checks and fault-tolerant processing
+                </li>
+                <li>
+                  Repo:{" "}
+                  <a
+                    href="https://github.com/deepak-kumar20/distributed-job-queue-system"
+                    target="_blank"
+                    rel="noreferrer"
+                    style={{ color: "#00b4ff", textDecoration: "none" }}
+                  >
+                    github.com/deepak-kumar20/distributed-job-queue-system
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li style={{ marginBottom: 12 }}>
+              <strong>5️⃣ Digital Wallet Backend System</strong> | Backend,
+              Docker
+              <ul style={{ paddingLeft: 20, color: "#bbb", fontSize: 14 }}>
+                <li>
+                  Full backend system with Dockerized services and modular APIs
+                </li>
+                <li>
+                  Repo:{" "}
+                  <a
+                    href="https://github.com/deepak-kumar20/Digital-wallet-backend-system"
+                    target="_blank"
+                    rel="noreferrer"
+                    style={{ color: "#00b4ff", textDecoration: "none" }}
+                  >
+                    github.com/deepak-kumar20/Digital-wallet-backend-system
+                  </a>
+                </li>
+              </ul>
+            </li>
           </ul>
         </motion.div>
 
@@ -351,6 +410,13 @@ export default function Resume() {
           </h4>
           <ul style={{ paddingLeft: 20, color: "#ccc", lineHeight: 1.8 }}>
             <li>
+              2nd Place – Maharaja Agrasen College (University of Delhi)
+              Hackathon 2025
+            </li>
+            <li>4th Place – IIT Guwahati Hackathon 2026</li>
+            <li>Finalist – TechSprint Hackathon (DevSangam’26) by GDG</li>
+            <li>Finalist – AI Summit Hackathon, IIT Ropar</li>
+            <li>
               Ranked among Top 25 Teams, Hackathon 2024 – released working MVP
               within 36 hrs
             </li>
@@ -363,8 +429,8 @@ export default function Resume() {
               JS, React, Node.js, MongoDB
             </li>
             <li>
-              Solved 200+ LeetCode DSA problems in Java across arrays, trees,
-              graphs, and DP
+              Solved 450+ LeetCode DSA problems with 1800+ rating across
+              arrays, trees, graphs, and DP
             </li>
             <li>
               <strong>Certifications:</strong>
@@ -425,7 +491,7 @@ export default function Resume() {
           }}
         >
           <iframe
-            src="/certs/Deepak_Resume (1).pdf"
+            src="/certs/Deepak_Kumar_fse_.pdf"
             title="Deepak Kumar Resume"
             style={{
               width: "100%",
@@ -438,7 +504,7 @@ export default function Resume() {
 
         {/* Download Button */}
         <motion.a
-          href="/certs/Deepak_Resume (1).pdf"
+          href="/certs/Deepak_Kumar_fse_.pdf"
           download
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}

@@ -74,11 +74,11 @@ const AboutMe = () => {
 
         <p>
           Computer Science student at ABES Engineering College with hands-on
-          experience in MERN Stack development. Proficient in React, Node.js,
-          Express, MongoDB, and JWT authentication. Currently working as a MERN
-          Stack Developer Intern at Ghaziabad E-Cell Organization, seeking
-          opportunities to apply skills and contribute to impactful web
-          solutions.
+          experience in full stack development. Full Stack Engineer Intern at
+          ACT Business Solutions and Technical Coordinator at ABES E-Cell.
+          Proficient in React, Node.js, Express, MongoDB, and JWT authentication.
+          Solved 450+ LeetCode problems with 1800+ rating, focused on DSA and
+          problem solving.
         </p>
 
         {/* --- Education Section --- */}
@@ -149,7 +149,7 @@ const AboutMe = () => {
                   Sep 2023 – Sep 2027
                 </p>
                 <p style={{ color: "rgba(255,255,255,0.7)" }}>
-                  CGPA: 8.23/10 (till 4th sem)
+                  CGPA: 8.27/10 (till now)
                 </p>
                 <p
                   style={{
