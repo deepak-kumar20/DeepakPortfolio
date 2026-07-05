@@ -4,15 +4,39 @@ import { Github, ExternalLink } from "lucide-react";
 
 const PROJECTS = [
   {
-    title: "🤖 Interview Prep AI",
-    desc: "AI-powered interview preparation tool with 50+ active users. Generates role-specific questions and answers using OpenAI API with 10+ reusable prompt templates.",
+    title: "🧠 RepoMind – AI Repository Intelligence",
+    desc: "AI-powered repository intelligence platform indexing 100,000+ lines of code into a hybrid GraphRAG + Vector RAG pipeline using AST parsing, enabling sub-2s architecture-aware retrieval across files, APIs, and dependencies. LangGraph multi-agent workflows for Q&A, impact analysis, and documentation generation.",
+    ss: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800&h=500&fit=crop",
+    tech: ["Next.js", "FastAPI", "LangGraph", "Neo4j", "Qdrant", "PostgreSQL"],
+    live: "#",
+    code: "https://github.com/deepak-kumar20",
+  },
+  {
+    title: "🤝 CollabAI – Real-Time Collaborative Workspace",
+    desc: "Real-time collaborative workspace supporting 50+ concurrent users with CRDT-based synchronisation using Yjs and Socket.io. Integrated Gemini API for AI-powered summarisation and content generation, securing 100+ active workspaces with JWT authentication and rate limiting.",
+    ss: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=500&fit=crop",
+    tech: ["React.js", "Node.js", "Socket.io", "Yjs", "Gemini API", "JWT"],
+    live: "#",
+    code: "https://github.com/deepak-kumar20",
+  },
+  {
+    title: "⚡ Distributed Job Queue System",
+    desc: "Distributed producer-consumer architecture processing 50,000+ background jobs with concurrent workers, scheduled execution, retries, and automatic failure recovery. Monitoring APIs track 1,000+ queued tasks with 99%+ job execution reliability.",
+    ss: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=500&fit=crop",
+    tech: ["Node.js", "PostgreSQL", "Redis", "Docker"],
+    live: "#",
+    code: "https://github.com/deepak-kumar20/distributed-job-queue-system",
+  },
+  {
+    title: "🎓 Interview Prep Platform",
+    desc: "Role-based platform for students and teachers with AI-generated personalised learning roadmaps using Gemini API for dynamic preparation strategies. Secure APIs with optimised frontend workflows supporting multiple user roles.",
     ss: "/certs/interviewPrep.png",
-    tech: ["React", "Node.js", "Express", "MongoDB", "OpenAI API", "JWT"],
+    tech: ["React.js", "Node.js", "MongoDB", "Gemini API"],
     live: "https://interview-prep-ai-2-ntjl.onrender.com/",
     code: "https://github.com/deepak-kumar20/interview-prep-AI",
   },
   {
-    title: "� AlphaGym",
+    title: "💪 AlphaGym",
     desc: "Freelance project delivered to client - Modern gym website with smooth animations and responsive design. Built with React and Framer Motion for engaging user experience.",
     ss: "/AlphaGym.png",
     tech: ["React", "Framer Motion", "CSS3", "Responsive Design"],
@@ -20,19 +44,11 @@ const PROJECTS = [
     code: "https://github.com/deepak-kumar20/AlphaGym",
   },
   {
-    title: " ChicChat",
-    desc: "Real-time chat application handling 100+ concurrent users and 10k+ messages/day. Built with WebSocket (Socket.IO) for 90% faster message transmission. 🚧 Under Development",
-    ss: "https://images.unsplash.com/photo-1611606063065-ee7946f0787a?w=800&h=500&fit=crop",
-    tech: ["React", "Node.js", "Express", "MongoDB", "Socket.IO", "JWT"],
-    live: "#",
-    code: "https://github.com/deepak-kumar20/ChicChat",
-  },
-  {
     title: "🌾 Kisan Setu – SIH Project",
     desc: "Farmer-assistance platform with real-time weather APIs, AI-powered disease detection, crop recommendations, and market price analysis.",
     ss: "/kisanSetu.jpeg",
     tech: ["React", "Node.js", "Express", "MongoDB", "AI/ML APIs", "JWT"],
-    live: "#", // TODO: Add your live demo URL
+    live: "#",
     code: "https://github.com/deepak-kumar20/Kisan_Setu",
   },
 ];
@@ -63,7 +79,8 @@ export default function Projects() {
           🚀 Projects
         </motion.h2>
         <p className="text-gray-400 mb-10">
-          A collection of my major works — blending research, AI innovation.
+          A collection of my major works — blending full stack, AI, and
+          distributed systems.
         </p>
 
         <div

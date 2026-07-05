@@ -57,26 +57,27 @@ const AboutMe = () => {
             marginBottom: "1rem",
           }}
         >
-          Hi, I'm <strong>Deepak Kumar</strong> — a passionate{" "}
-          <strong>MERN Stack Developer</strong> and{" "}
-          <strong>Backend Engineer</strong> who loves building scalable web
-          applications and solving complex problems through code. I'm deeply
-          interested in creating efficient backend systems and crafting seamless
-          user experiences.
+          Hi, I'm <strong>Deepak Kumar</strong> — a{" "}
+          <strong>Full Stack Developer</strong> focused on building scalable web
+          applications, backend infrastructure, and real-time systems. Skilled in
+          REST APIs, authentication, WebSockets, caching, and AI integration with
+          a strong foundation in Data Structures & Algorithms.
         </p>
 
         <p style={{ fontSize: "1.1rem", color: "rgba(255,255,255,0.8)" }}>
-          Beyond coding, I enjoy learning new technologies, participating in
-          hackathons, and leading tech initiatives. My goal is to build
+          Effective communicator and problem-solver with hands-on experience
+          across production deployments and hackathons. My goal is to build
           solutions that not only work efficiently — but also make a real
           impact.
         </p>
 
         <p>
           Computer Science student at ABES Engineering College with hands-on
-          experience in full stack development. Full Stack Engineer Intern at
-          ACT Business Solutions and Technical Coordinator at ABES E-Cell.
-          Proficient in React, Node.js, Express, MongoDB, and JWT authentication.
+          experience in full stack development. Currently working as a
+          Full Stack Developer at ACT Business Solutions (Apr 2026 –
+          Present) and former Technical Coordinator
+          at ABES E-Cell (Jun 2025 – Dec 2025). Proficient in React, Node.js,
+          Express, MongoDB, PostgreSQL, Redis, and AI/LLM integration.
           Solved 450+ LeetCode problems with 1800+ rating, focused on DSA and
           problem solving.
         </p>

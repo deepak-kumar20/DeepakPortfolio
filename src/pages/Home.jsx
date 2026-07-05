@@ -13,11 +13,11 @@ export default function Home() {
   const instagramLogo = "/insta.png";
 
   const professions = [
-    "MERN Stack Developer",
-    "Full Stack Engineer",
-    "Backend Developer",
+    "Full Stack Developer",
+    "Backend Engineer",
+    "AI/LLM Integration",
+    "Real-Time Systems",
     "Problem Solver",
-    "Tech Enthusiast",
   ];
 
   const quickLinks = [
@@ -108,7 +108,7 @@ export default function Home() {
 
           {/* Typing Animated Text */}
           <p className="typing-effect">
-            MERN Stack Developer | Backend Engineer | Problem Solver
+            Full Stack Developer | Backend Engineer | AI Enthusiast
           </p>
 
           {/* Profession Tags */}
@@ -133,7 +133,7 @@ export default function Home() {
           <motion.div className="info-cards">
             {[
               { label: "📍 Location", value: "Ghaziabad, India" },
-              { label: "💼 Expertise", value: "MERN Stack, Backend Dev" },
+              { label: "💼 Expertise", value: "Full Stack, AI/LLM, Real-Time" },
               { label: "📧 Contact", value: "deepakdagur0007@gmail.com" },
             ].map((info, i) => (
               <motion.div
@@ -149,6 +149,7 @@ export default function Home() {
           </motion.div>
 
           {/* Freelance Banner */}
+          {/* Mailblimp Banner */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -160,7 +161,7 @@ export default function Home() {
                 "linear-gradient(135deg, rgba(0,180,255,0.1), rgba(0,255,200,0.1))",
               borderRadius: "12px",
               border: "1px solid rgba(0,180,255,0.3)",
-              textAlign: "center",
+              textAlign: "left",
             }}
           >
             <h3
@@ -171,31 +172,88 @@ export default function Home() {
                 fontWeight: "600",
               }}
             >
-              🚀 Freelance Web Developer
+              🚀 Co-Founder at Mailblimp.com
             </h3>
             <p
               style={{
                 color: "rgba(255,255,255,0.85)",
                 fontSize: "1rem",
                 lineHeight: "1.6",
+                marginBottom: "0.5rem"
               }}
             >
-              Successfully delivered <strong>2+ websites</strong> to clients at
-              genuine & affordable costs.
-              <br />
-              Offering end-to-end development with{" "}
-              <strong>maintenance support</strong> by me.
+              <strong>Mailblimp.com</strong> is a software building startup where we build, scale, and sell high-quality websites and applications for clients.
             </p>
-            <p
+            <ul style={{ color: "rgba(255,255,255,0.8)", fontSize: "0.95rem", paddingLeft: "1.2rem", margin: 0 }}>
+              <li>Offering end-to-end full stack development tailored to business needs.</li>
+              <li>Providing ongoing <strong>maintenance support</strong> and technical scaling.</li>
+              <li>Delivering fast, secure, and beautiful digital products at genuine costs.</li>
+            </ul>
+          </motion.div>
+
+          {/* Current Roles Banner */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 1.0, duration: 0.8 }}
+            style={{
+              marginTop: "1.5rem",
+              padding: "1.5rem",
+              background:
+                "linear-gradient(135deg, rgba(255,100,100,0.08), rgba(255,150,50,0.08))",
+              borderRadius: "12px",
+              border: "1px solid rgba(255,150,50,0.2)",
+              textAlign: "left",
+            }}
+          >
+            <h3
               style={{
-                color: "var(--accent-2)",
-                fontSize: "0.95rem",
-                marginTop: "0.5rem",
-                fontStyle: "italic",
+                color: "#ff9c3a",
+                fontSize: "1.2rem",
+                marginBottom: "1rem",
+                fontWeight: "600",
               }}
             >
-              Quality work • Timely delivery • Ongoing maintenance
-            </p>
+              💼 Experience Highlights
+            </h3>
+            <div style={{ marginBottom: "1.2rem" }}>
+              <h4 style={{ color: "#ff9c3a", fontSize: "1.05rem", marginBottom: "0.4rem" }}>
+                Full Stack Developer <span style={{ color: "rgba(255,255,255,0.5)", fontSize: "0.9rem" }}>| ACT Business Solutions</span>
+              </h4>
+              <p style={{ color: "rgba(255,255,255,0.8)", fontSize: "0.95rem", lineHeight: "1.5", margin: 0 }}>
+                Currently working to architect and develop enterprise modules, including Risk Management and HRMS. Building scalable microservices, integrating payment gateways, and optimizing API response times via Redis caching.
+              </p>
+            </div>
+            
+            <div>
+              <h4 style={{ color: "#ff9c3a", fontSize: "1.05rem", marginBottom: "0.4rem" }}>
+                Technical Coordinator <span style={{ color: "rgba(255,255,255,0.5)", fontSize: "0.9rem" }}>| ABES E-Cell</span>
+              </h4>
+              <p style={{ color: "rgba(255,255,255,0.8)", fontSize: "0.95rem", lineHeight: "1.5", margin: 0 }}>
+                Developed dynamic platform sections and provided real-time technical support for major college hackathons and events, maintaining 99%+ platform uptime under strict deadlines.
+              </p>
+            </div>
+          </motion.div>
+
+          {/* LinkedIn Glance Section */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 1.2, duration: 0.8 }}
+            style={{
+              marginTop: "2rem",
+              width: "100%",
+              borderRadius: "12px",
+              overflow: "hidden",
+              border: "1px solid rgba(255,255,255,0.1)",
+              boxShadow: "0 10px 30px rgba(0,0,0,0.5)"
+            }}
+          >
+            <img 
+              src="/certs/pic.png" 
+              alt="LinkedIn Snapshot" 
+              style={{ width: "100%", height: "auto", display: "block" }} 
+            />
           </motion.div>
         </motion.div>
       </div>

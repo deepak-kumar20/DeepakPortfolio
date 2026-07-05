@@ -4,28 +4,20 @@ import "./Skills.css";
 
 const SKILLS = [
   {
-    name: "HTML",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-  },
-  {
-    name: "CSS",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
-  },
-  {
     name: "JavaScript",
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
   },
   {
+    name: "TypeScript",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+  },
+  {
+    name: "Python",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+  },
+  {
     name: "React",
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-  },
-  {
-    name: "Redux",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
-  },
-  {
-    name: "Bootstrap",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
   },
   {
     name: "Node.js",
@@ -40,24 +32,36 @@ const SKILLS = [
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
   },
   {
-    name: "Java",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+    name: "PostgreSQL",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
   },
   {
-    name: "C",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg",
+    name: "Redis",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg",
+  },
+  {
+    name: "Docker",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
   },
   {
     name: "Git",
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
   },
   {
-    name: "GitHub",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+    name: "Java",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
   },
   {
     name: "C++",
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg",
+  },
+  {
+    name: "HTML5",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+  },
+  {
+    name: "CSS3",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
   },
   {
     name: "Postman",
@@ -69,36 +73,47 @@ const ROWS = [
   [
     {
       title: "Frontend",
-      items: ["HTML", "CSS", "JavaScript", "React", "Redux", "Bootstrap"],
+      items: ["React.js", "HTML5", "CSS3", "Tailwind CSS", "JavaScript", "TypeScript"],
     },
     {
       title: "Backend",
-      items: ["Node.js", "Express.js", "MongoDB"],
+      items: ["Node.js", "Express.js", "REST APIs", "JWT Authentication", "WebSockets", "BullMQ"],
     },
-    { title: "Programming", items: ["Java", "C", "C++"] },
     {
-      title: "Tools & Others",
-      items: ["Git", "GitHub", "REST APIs", "JWT", "WebSocket", "Postman"],
+      title: "Databases",
+      items: ["MongoDB", "PostgreSQL", "MySQL", "Redis"],
+    },
+    {
+      title: "Languages",
+      items: ["JavaScript", "Python", "TypeScript", "Java", "C++"],
     },
   ],
   [
     {
-      title: "Core Concepts",
-      items: [
-        "Data Structures & Algorithms",
-        "Operating Systems",
-        "OOP",
-        "Multithreading",
-      ],
+      title: "AI / LLM",
+      items: ["LLMs", "RAG", "Prompt Engineering", "LangChain", "LangGraph", "AI Agents", "Vector Databases", "MCP"],
     },
+    {
+      title: "System Design",
+      items: ["Caching", "Distributed Systems", "Rate Limiting", "Fault Tolerance", "SDLC"],
+    },
+    {
+      title: "Tools & DevOps",
+      items: ["Docker", "Git", "GitHub Actions", "Postman", "Render", "Vercel"],
+    },
+    {
+      title: "Real-Time & Core CS",
+      items: ["Socket.io", "Yjs (CRDT)", "OOP", "DBMS", "Operating Systems", "DSA"],
+    },
+  ],
+  [
     {
       title: "Soft Skills",
       items: [
         "Problem Solving",
-        "Team Leadership",
-        "Communication",
-        "Adaptability",
-        "Time Management",
+        "Strong Communication",
+        "Team Collaboration",
+        "Critical Thinking",
       ],
     },
   ],

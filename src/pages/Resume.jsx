@@ -80,12 +80,13 @@ export default function Resume() {
           >
             <strong style={{ color: "#00b4ff" }}>Professional Summary:</strong>
             <p style={{ marginTop: 6, color: "#ccc" }}>
-              Computer Science student with hands-on experience in MERN Stack
-              and full stack development. Skilled in building scalable web
-              applications using React, Node.js, Express, and MongoDB.
-              Passionate about creating efficient backend systems and solving
-              real-world problems through code. Full Stack Engineer Intern at
-              ACT Business Solutions and Technical Coordinator at ABES E-Cell.
+              Full Stack Developer currently working at ACT Business Solutions.
+              Focused on building scalable web applications,
+              backend infrastructure, and real-time systems. Skilled in REST APIs,
+              authentication, WebSockets, caching, and AI integration with strong
+              foundation in Data Structures & Algorithms. Effective communicator
+              and problem-solver with hands-on experience across production
+              deployments and hackathons.
             </p>
           </motion.div>
         </motion.div>
@@ -118,7 +119,7 @@ export default function Resume() {
               <strong>Bachelor of Technology - BTech, Computer Science</strong>{" "}
               <br />
               <span style={{ color: "#00b4ff" }}>
-                ABES Engineering College
+                ABES Engineering College, Ghaziabad
               </span>{" "}
               <br />
               <span style={{ color: "#aaa", fontSize: 14 }}>
@@ -126,14 +127,7 @@ export default function Resume() {
               </span>{" "}
               <br />
               <span style={{ color: "#bbb", fontSize: 14 }}>
-                CGPA: 8.27/10 (till now)
-              </span>{" "}
-              <br />
-              <span
-                style={{ color: "#999", fontSize: 13, fontStyle: "italic" }}
-              >
-                Skills: Data Structures and Algorithms, Java, Problem Solving,
-                Web Development
+                CGPA: 8.27/10
               </span>
             </li>
 
@@ -189,42 +183,57 @@ export default function Resume() {
           </h4>
           <div style={{ lineHeight: 1.8 }}>
             <strong style={{ color: "#ccc" }}>
-              Full Stack Engineer Intern, ACT Business Solutions
+              Full Stack Developer | ACT Business Solutions | Remote
             </strong>
+            <span style={{ color: "#aaa", fontSize: 13, marginLeft: 8 }}>
+              Apr 2026 – Present
+            </span>
             <ul style={{ marginTop: 8, paddingLeft: 20, color: "#bbb" }}>
               <li>
-                Developed scalable features using the MERN stack and optimized
-                API performance.
+                Architected and developed enterprise modules including Risk
+                Management, Procurement, Invoicing, and HRMS from database
+                schema design to React/TypeScript integration — reducing
+                cross-team integration effort by ~40% via reusable REST APIs and
+                UI components.
               </li>
               <li>
-                Built and integrated RESTful APIs with React.js for seamless
-                frontend-backend data flow.
+                Designed modular backend services to decouple Payroll, HRMS, and
+                Performance systems, enabling independent feature deployments
+                and cutting inter-module dependency resolution time by ~35%.
               </li>
               <li>
-                Refactored components for high reusability, reducing code
-                redundancy and load times.
+                Integrated third-party payment gateways and notification
+                systems, supporting 1,000+ transaction events through secure and
+                reliable inter-service communication workflows.
               </li>
               <li>
-                Enhanced security by implementing JWT authentication and custom
-                middleware.
+                Implemented Redis caching on high-traffic reporting endpoints —
+                reduced average API response time by ~60% and redundant DB reads
+                by ~70% under concurrent load.
               </li>
               <li>
-                Participated in Agile sprints and code reviews to ensure
-                production-grade quality.
+                Built advanced filtering, sorting, and pagination across
+                dashboards, maintaining sub-200ms query times on datasets
+                exceeding 100K+ records.
               </li>
             </ul>
 
-            <strong style={{ color: "#ccc" }}>
-              Technical Coordinator, ABES E-Cell
+            <strong style={{ color: "#ccc", marginTop: 16, display: "block" }}>
+              Technical Coordinator | ABES E-Cell
             </strong>
+            <span style={{ color: "#aaa", fontSize: 13, marginLeft: 8 }}>
+              Jun 2025 – Dec 2025
+            </span>
             <ul style={{ marginTop: 8, paddingLeft: 20, color: "#bbb" }}>
               <li>
-                Developed and maintained website sections for events and
-                announcements.
+                Developed dynamic event and announcement sections, reducing
+                content deployment turnaround from 2–3 days to under 1 hour for
+                non-technical members.
               </li>
               <li>
-                Built registration systems and improved user interaction
-                experience.
+                Provided real-time technical support across 5+ events and
+                hackathons, maintaining 99%+ platform uptime and resolving
+                issues within {"<"}15 minutes under strict deadlines.
               </li>
             </ul>
           </div>
@@ -249,94 +258,67 @@ export default function Resume() {
             }}
           >
             <li style={{ marginBottom: 12 }}>
-              <strong>1️⃣ Interview Prep AI</strong> | MERN Stack, OpenAI API,
-              JWT
+              <strong>1️⃣ RepoMind – AI Repository Intelligence Platform</strong>{" "}
+              | Next.js, FastAPI, LangGraph, Neo4j, Qdrant, PostgreSQL
               <ul style={{ paddingLeft: 20, color: "#bbb", fontSize: 14 }}>
                 <li>
-                  AI interview prep tool with 50+ active users, generating
-                  role-specific Q&A
+                  Built an AI-powered repository intelligence platform indexing
+                  100,000+ lines of code into a hybrid GraphRAG + Vector RAG
+                  pipeline using AST parsing, enabling sub-2s
+                  architecture-aware retrieval.
                 </li>
                 <li>
-                  Created 10+ reusable prompt templates, improving response
-                  accuracy by 25%
-                </li>
-                <li>Implemented JWT Authentication for secure user sessions</li>
-              </ul>
-            </li>
-            <li style={{ marginBottom: 12 }}>
-              <strong>2️⃣ ChicChat</strong> | MERN Stack, WebSocket, Socket.IO,
-              JWT
-              <ul style={{ paddingLeft: 20, color: "#bbb", fontSize: 14 }}>
-                <li>
-                  Real-time chat application handling 100+ concurrent users and
-                  10k+ messages/day
-                </li>
-                <li>
-                  Delivered 90% faster message transmission using WebSocket
-                  (Socket.IO)
-                </li>
-                <li>
-                  Designed REST APIs + MongoDB backend for scalable message
-                  storage
-                </li>
-              </ul>
-            </li>
-            <li>
-              <strong>3️⃣ Kisan Setu – SIH Project</strong> | MERN Stack, Backend
-              Development, APIs, AI
-              <ul style={{ paddingLeft: 20, color: "#bbb", fontSize: 14 }}>
-                <li>
-                  Led backend development for farmer-assistance platform with
-                  real-time weather APIs
-                </li>
-                <li>
-                  Implemented disease detection and crop recommendations using
-                  AI modules
-                </li>
-                <li>
-                  Built secure authentication with JWT and scalable backend with
-                  Node.js & MongoDB Atlas
+                  Implemented LangGraph multi-agent workflows for repository
+                  Q&A, impact analysis, documentation generation, dependency
+                  tracing, and code explanation with Neo4j knowledge graphs.
                 </li>
               </ul>
             </li>
             <li style={{ marginBottom: 12 }}>
-              <strong>4️⃣ Distributed Job Queue System</strong> | Node.js,
-              PostgreSQL, Docker
+              <strong>2️⃣ CollabAI</strong> | React.js, Node.js, Socket.io, Yjs,
+              Gemini API
               <ul style={{ paddingLeft: 20, color: "#bbb", fontSize: 14 }}>
                 <li>
-                  Scalable multi-queue job distribution system with worker health
-                  checks and fault-tolerant processing
+                  Built a real-time collaborative workspace supporting 50+
+                  concurrent users with CRDT-based synchronisation using Yjs and
+                  Socket.io, ensuring conflict-free document editing.
                 </li>
                 <li>
-                  Repo:{" "}
-                  <a
-                    href="https://github.com/deepak-kumar20/distributed-job-queue-system"
-                    target="_blank"
-                    rel="noreferrer"
-                    style={{ color: "#00b4ff", textDecoration: "none" }}
-                  >
-                    github.com/deepak-kumar20/distributed-job-queue-system
-                  </a>
+                  Integrated Gemini API for AI-powered summarisation and content
+                  generation, with JWT authentication and rate limiting to
+                  secure 100+ active workspaces.
                 </li>
               </ul>
             </li>
             <li style={{ marginBottom: 12 }}>
-              <strong>5️⃣ Digital Wallet Backend System</strong> | Backend,
-              Docker
+              <strong>3️⃣ Distributed Job Queue System</strong> | Node.js,
+              PostgreSQL, Redis, Docker
               <ul style={{ paddingLeft: 20, color: "#bbb", fontSize: 14 }}>
                 <li>
-                  Full backend system with Dockerized services and modular APIs
+                  Built a distributed producer-consumer architecture capable of
+                  processing 50,000+ background jobs with concurrent workers,
+                  scheduled execution, retries, and automatic failure recovery.
                 </li>
                 <li>
-                  Repo:{" "}
-                  <a
-                    href="https://github.com/deepak-kumar20/Digital-wallet-backend-system"
-                    target="_blank"
-                    rel="noreferrer"
-                    style={{ color: "#00b4ff", textDecoration: "none" }}
-                  >
-                    github.com/deepak-kumar20/Digital-wallet-backend-system
-                  </a>
+                  Developed monitoring APIs for tracking 1,000+ queued tasks and
+                  worker health in real time, achieving 99%+ job execution
+                  reliability.
+                </li>
+              </ul>
+            </li>
+            <li style={{ marginBottom: 12 }}>
+              <strong>4️⃣ Interview Prep Platform</strong> | React.js, Node.js,
+              MongoDB, Gemini API
+              <ul style={{ paddingLeft: 20, color: "#bbb", fontSize: 14 }}>
+                <li>
+                  Built a role-based platform for students and teachers with
+                  AI-generated personalised learning roadmaps using Gemini API
+                  for dynamic preparation strategies.
+                </li>
+                <li>
+                  Designed secure APIs with optimised frontend workflows to
+                  efficiently support multiple user roles and personalised
+                  learning experiences.
                 </li>
               </ul>
             </li>
@@ -355,28 +337,44 @@ export default function Resume() {
           </h4>
           <div style={{ display: "flex", flexWrap: "wrap", gap: 10 }}>
             {[
-              "HTML",
-              "CSS",
               "JavaScript",
-              "React",
-              "Redux",
-              "Bootstrap",
+              "Python",
+              "TypeScript",
+              "Java",
+              "C++",
+              "React.js",
+              "HTML5",
+              "CSS3",
+              "Tailwind CSS",
               "Node.js",
               "Express.js",
-              "MongoDB",
-              "Mongo Atlas",
-              "Java",
-              "OOP",
-              "Multithreading",
-              "C (Basic)",
-              "Operating Systems",
-              "DSA",
               "REST APIs",
               "JWT Authentication",
-              "WebSocket",
+              "WebSockets",
+              "BullMQ",
+              "MongoDB",
+              "PostgreSQL",
+              "MySQL",
+              "Redis",
+              "Docker",
               "Git",
-              "GitHub",
+              "GitHub Actions",
+              "Postman",
+              "Socket.io",
+              "Yjs (CRDT)",
+              "LLMs",
+              "RAG",
+              "LangChain",
+              "LangGraph",
+              "AI Agents",
+              "Vector Databases",
+              "MCP",
+              "OOP",
+              "DBMS",
+              "Operating Systems",
+              "DSA",
               "Problem Solving",
+              "Communication",
             ].map((skill) => (
               <motion.span
                 key={skill}
@@ -406,38 +404,19 @@ export default function Resume() {
           style={{ marginTop: 40 }}
         >
           <h4 style={{ fontSize: 20, color: "#00b4ff", marginBottom: 12 }}>
-            🏆 Achievements & Leadership
+            🏆 Achievements
           </h4>
           <ul style={{ paddingLeft: 20, color: "#ccc", lineHeight: 1.8 }}>
             <li>
-              2nd Place – Maharaja Agrasen College (University of Delhi)
-              Hackathon 2025
+              2nd Place — Maharaja Agrasen College Hackathon, University of
+              Delhi
             </li>
-            <li>4th Place – IIT Guwahati Hackathon 2026</li>
-            <li>Finalist – TechSprint Hackathon (DevSangam’26) by GDG</li>
-            <li>Finalist – AI Summit Hackathon, IIT Ropar</li>
+            <li>4th Place — IIT Guwahati Hackathon 2026</li>
+            <li>Finalist — TechSprint Hackathon, DevSangam'26</li>
+            <li>Finalist — AI Summit Hackathon, IIT Ropar</li>
             <li>
-              Ranked among Top 25 Teams, Hackathon 2024 – released working MVP
-              within 36 hrs
-            </li>
-            <li>
-              Led a team of 150+ volunteers for campus events, improving event
-              participation by 40%
-            </li>
-            <li>
-              Completed a 4-month Web Development Bootcamp covering HTML, CSS,
-              JS, React, Node.js, MongoDB
-            </li>
-            <li>
-              Solved 450+ LeetCode DSA problems with 1800+ rating across
-              arrays, trees, graphs, and DP
-            </li>
-            <li>
-              <strong>Certifications:</strong>
-              <ul style={{ marginTop: 4 }}>
-                <li>HackerRank JavaScript (Basic)</li>
-                <li>HackerRank Java (Problem Solving)</li>
-              </ul>
+              Solved 450+ LeetCode DSA problems with 1800+ rating across arrays,
+              trees, graphs, and DP
             </li>
           </ul>
         </motion.div>
@@ -491,7 +470,7 @@ export default function Resume() {
           }}
         >
           <iframe
-            src="/certs/Deepak_Kumar_fse_.pdf"
+            src="/certs/Resume-Deepak.pdf"
             title="Deepak Kumar Resume"
             style={{
               width: "100%",
@@ -504,7 +483,7 @@ export default function Resume() {
 
         {/* Download Button */}
         <motion.a
-          href="/certs/Deepak_Kumar_fse_.pdf"
+          href="/certs/Resume-Deepak.pdf"
           download
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
